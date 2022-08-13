@@ -10,7 +10,7 @@ exports.createPost = async (req, res) => {
         title: req.body.title,
         content: req.body.content,
         type: "Blog",
-        author: "Mukul",
+        author: "Vikas Gupta",
         date: new Date(),
         upvote: 0
     })
